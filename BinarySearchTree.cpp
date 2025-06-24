@@ -56,8 +56,12 @@ class BinaryTree
         {
             parent->rightchild = newNode;
             return;
-        }
-         
+        } 
+    }
+
+    void search(int element, Node *&parent, Node *&currentNode)
+    {
+        
     }
 };
 
